@@ -41,7 +41,7 @@ app.set('view engine', 'hbs');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cors({
-    origin: ["http://localhost:500", "https://vidjot-prod.onrender.com"],
+    origin: ["http://localhost:5000", "https://vidjot-prod.onrender.com"],
 }));
 
 // Static folder
